@@ -7,7 +7,7 @@ const routes = require("./routes/routes");
 const app = express();
 
 const MONGO_URI =
-  "mongodb+srv://tks:tks@cluster0.ndhrz.mongodb.net/diseases?retryWrites=true&w=majority";
+  "mongodb+srv://:@cluster0.ndhrz.mongodb.net/diseases?retryWrites=true&w=majority";
 
 app.use(bodyParser.json());
 
